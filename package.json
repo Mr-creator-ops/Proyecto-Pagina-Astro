@@ -10,8 +10,9 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^4.13.1",
+    "astro": "^4.13.4",
     "astro-navbar": "^2.3.3",
-    "bootstrap": "^5.3.3"
+    "bootstrap": "^5.3.3",
+    "react": "^18.3.1"
   }
 }

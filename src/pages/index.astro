@@ -2,6 +2,7 @@
 import Navbar from "../components/Header.astro"
 import Navbarprincipal from "../components/Navbar.astro"
 import Footer from "../components/Footer.astro"
+
 ---
 
 
@@ -16,12 +17,45 @@ import Footer from "../components/Footer.astro"
 	<body>
 		<Navbar />
 		<Navbarprincipal />
-		
-		<Footer />
-
-		
-		
+		<section class="hero">
+			<h2>El Hospital Comercial se erige como un destacado oasis de cuidado de 
+				la salud en nuestra comunidad. Con una trayectoria sólida y un compromiso innegable hacia el bienestar de sus pacientes, este centro hospitalario se destaca por su excelencia en la atención sanitaria.</h2>
+			<p>Fundado hace más de tres décadas, el Hospital Comercial ha hecho de la calidad su principal pilar, brindando servicios médicos de vanguardia y un equipo de profesionales altamente capacitados que velan por la salud y la recuperación de cada individuo que cruza sus puertas.</p>
+		</section>
 	
-
+		<section class="especialidades">
+			<h2>Especialidades</h2>
+			<div class="card-container">
+				<div class="card">
+					<h3>Odontologia</h3>
+					<p>El odontólogo es un profesional de la salud dental que se especializa en el diagnóstico, prevención y tratamiento de enfermedades y afecciones relacionadas con la boca, los dientes y las encías. Realiza limpiezas, obturaciones, extracciones y otros procedimientos para mantener la salud bucal.</p>
+				</div>
+				<div class="card">
+					<h3>Cardiologia</h3>
+					<p>El cardiólogo es un médico especializado en el diagnóstico y tratamiento de enfermedades del corazón y los vasos sanguíneos. Evalúa síntomas como dolor en el pecho, arritmias, hipertensión y realiza pruebas como electrocardiogramas y ecocardiografías.</p>
+				</div>
+				<div class="card">
+					<h3>Pediatria</h3>
+					<p> El pediatra es un médico especializado en el cuidado de niños y adolescentes. Realiza exámenes físicos, vacunaciones, trata enfermedades comunes y ofrece orientación sobre el crecimiento y desarrollo infantil. En el caso de un cardiólogo pediátrico, se enfoca en problemas cardíacos específicos en niños y bebés</p>
+				</div>
+			</div>
+		</section>
+	
+		<section class="doctores">
+			<h2>Nuestros Doctores</h2>
+			<div class="doctor">
+				<h3>Dr. Jose </h3>
+				<p>Odontologo - Un Doctor con Amplias habilidades en su campo de estudio</p>
+			</div>
+			<div class="doctor">
+				<h3>Dr. Humberto</h3>
+				<p>Cardiologo - un cardiólogo con más de 15 años de experiencia. Se dedica al diagnóstico y tratamiento de enfermedades del corazón, como la hipertensión, las arritmias y las enfermedades coronarias. Su enfoque es brindar atención personalizada y promover hábitos de vida saludables para sus pacientes.</p>
+			</div>
+			<div class="doctor">
+				<h3>Dr. Carlos </h3>
+				<p>Pediatra - es un médico con amplia experiencia en medicina interna. Se dedica al diagnóstico y tratamiento de enfermedades crónicas, como la diabetes, hipertensión y enfermedades autoinmunes. Su enfoque es brindar atención integral y promover la salud a largo plazo.</p>
+			</div>
+		</section>
+		<Footer />
 	</body>
 </html>

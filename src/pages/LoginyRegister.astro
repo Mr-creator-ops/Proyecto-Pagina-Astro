@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario de Login y Registro</title>
+    <link rel="stylesheet" href="styles.css"> </head>
+<body>
+    <div class="container">
+        <h1>Bienvenido</h1>
+        <div class="login-form">
+            <h2>Iniciar Sesión</h2>
+            <form>
+                <input type="email" placeholder="Correo electrónico" required>
+                <input type="password" placeholder="Contraseña" required>
+                <button type="submit">Iniciar Sesión</button>
+            </form>
+            <a href="#">¿Olvidaste tu contraseña?</a>
+        </div>
+        <div class="register-form">
+            <h2>Registrarse</h2>
+            <form>
+                <input type="text" placeholder="Nombre" required>
+                <input type="email" placeholder="Correo electrónico" required>
+                <input type="password" placeholder="Contraseña" required>
+                <button type="submit">Registrarse</button>
+            </form>
+        </div>
+    </div>
+<style>
+    .container {
+    text-align: center;
+}
+
+.login-form, .register-form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+input {
+    width: 200px;
+    padding: 10px;
+    margin: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+</style>
+    <script src="script.js"></script> </body>
+</html>
